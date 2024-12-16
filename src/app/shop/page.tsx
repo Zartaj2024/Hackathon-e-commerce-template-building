@@ -1,20 +1,20 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Phone from "../components/phone.png";
-import Mail from "../components/mail.png";
-import Social from "../components/social media.png";
-import Logo from "../components/Bandage.png";
-import Login from "../components/login.png";
-import P1 from "../components/p1.png";
-import P2 from "../components/p2.png";
-import P3 from "../components/p3.png"
-import P4 from "../components/p4.png"
-import P5 from "../components/p5.png"
-import P6 from "../components/p6.png"
-import P7 from "../components/p7.png"
-import P8 from "../components/p8.png"
-import Page23 from "../components/page2.4.png";
+import Phone from "../../components/phone.png";
+import Mail from "../../components/mail.png";
+import Social from "../../components/social media.png";
+import Logo from "../../components/Bandage.png";
+import Login from "../../components/login.png";
+import P1 from "../../components/p1.png";
+import P2 from "../../components/p2.png";
+import P3 from "../../components/p3.png"
+import P4 from "../../components/p4.png"
+import P5 from "../../components/p5.png"
+import P6 from "../../components/p6.png"
+import P7 from "../../components/p7.png"
+import P8 from "../../components/p8.png"
+import Page23 from "../../components/page2.4.png";
 function Shop() {
   return (
     <div>
@@ -502,3 +502,4 @@ function Shop() {
 }
 
 export default Shop;
+
