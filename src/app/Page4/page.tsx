@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Page31 from "../components/Page31";
 import Count from "../components/count.png";
 import Deskimage from "../components/desktop-video-3.png";

@@ -1,6 +1,6 @@
 
 import React from "react";  
-import Image from "next/image";
+
 import Header1 from "./components/header1";
 import Header2 from "./components/header2";
 import EditorPick from "./components/EditorPick";

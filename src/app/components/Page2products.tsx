@@ -8,7 +8,7 @@ import P5 from "../components/p5.png";
 import P6 from "../components/p6.png";
 import P7 from "../components/p7.png";
 import P8 from "../components/p8.png";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 import Link from "next/link";
 

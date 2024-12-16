@@ -3,6 +3,7 @@ import React from "react";
 
 import Social2 from "../components/social2.png";
 import bandage from "../components/Bandage.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -24,24 +25,24 @@ const Footer = () => {
               </h2>
               <ul className="mt-4 space-y-2">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Carrier
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     We are hiring
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -51,24 +52,24 @@ const Footer = () => {
               </h2>
               <ul className="mt-4 space-y-2">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Carrier
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     We are hiring
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -78,24 +79,24 @@ const Footer = () => {
               </h2>
               <ul className="mt-4 space-y-2">
                 <li>
-                  <a href="#" className="text-gray-400 font-bold hover:text-white">
+                  <Link href="#" className="text-gray-400 font-bold hover:text-white">
                     Business Marketing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     User Analytic
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Live Chat
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Unlimited Support
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -105,24 +106,24 @@ const Footer = () => {
               </h2>
               <ul className="mt-4 space-y-2 text-black-400">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     IOS & Android
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Watch a Demo
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     Customers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link href="#" className="text-gray-400 hover:text-white">
                     API
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

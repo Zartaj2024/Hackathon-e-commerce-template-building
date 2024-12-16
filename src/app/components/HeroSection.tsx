@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "./public/bg.jpg";
+
 import Link from "next/link";
 //  import Page2 from "./Page2";
 

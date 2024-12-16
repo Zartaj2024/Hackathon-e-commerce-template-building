@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Page31 = () => {
     return (
@@ -12,25 +13,25 @@ const Page31 = () => {
     
             {/* Center Navigation */}
             <nav className="hidden md:flex md:space-x-8 items-center text-gray-400 text-sm font-bold">
-              <a href="/" className="hover:text-gray-700">
+              <Link href="/" className="hover:text-gray-700">
                 Home
-              </a>
-              <a href="Page2" className="hover:text-gray-700">
+              </Link>
+              <Link href="Page2" className="hover:text-gray-700">
                 Product
-              </a>
-              <a href="#" className="hover:text-gray-700">
+              </Link>
+              <Link href="#" className="hover:text-gray-700">
                 Pricing
-              </a>
-              <a href="#" className="hover:text-gray-700">
+              </Link>
+              <Link href="#" className="hover:text-gray-700">
                 Contact
-              </a>
+              </Link>
             </nav>
     
             {/* Right Section: Login & Button */}
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-blue-500 font-semibold text-sm hover:underline">
+              <Link href="#" className="text-blue-500 font-semibold text-sm hover:underline">
                 Login
-              </a>
+              </Link>
               <button className="bg-blue-500 text-white font-bold px-4 py-2 rounded hover:bg-blue-600 flex items-center">
                 Become a member
                 <span className="ml-2 text-lg">→</span>
