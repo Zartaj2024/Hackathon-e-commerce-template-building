@@ -14,7 +14,7 @@ import P5 from "../../components/p5.png"
 import P6 from "../../components/p6.png"
 import P7 from "../../components/p7.png"
 import P8 from "../../components/p8.png"
-import Page23 from "../../components/page2.4.png";
+import Page23 from "../../components/Page2.4.png";
 function Shop() {
   return (
     <div>

@@ -2,7 +2,7 @@
 import React from "react";
 
 import Social2 from "../components/social2.png";
-import bandage from "../components/bandage.png";
+import bandage from "../components/Bandage.png";
 
 const Footer = () => {
   return (
