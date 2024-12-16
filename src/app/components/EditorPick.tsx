@@ -1,8 +1,8 @@
 import React from "react";
-import acce from "../../components/acce.png";
-import men from "../../components/men.png";
-import women from "../../components/women.png";
-import kids from "../../components/kids.png";
+import acce from "../components/acce.png";
+import men from "../components/men.png";
+import women from "../components/women.png";
+import kids from "../components/kids.png";
 
 const EditorPick = () => {
   return (

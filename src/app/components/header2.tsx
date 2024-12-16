@@ -1,6 +1,6 @@
 import React from "react";
 import login from "../components/login.png";
-import bandage from "../components/bandage.png";
+import bandage from "../components/Bandage.png";
 import Link from "next/link";
 
 const Header1 = () => {
