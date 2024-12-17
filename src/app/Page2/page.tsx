@@ -20,13 +20,13 @@ export default function Page2() {
         <div className="flex gap-4">
           <div className="flex pt-3 pb-3">
             <div>
-              <Image src={Phone} alt="phone" />
+              <Image src={Phone.src} alt="phone" className="w-[20px] h-[20px]"/>
             </div>
             <div>(225) 555-0118</div>
           </div>
           <div className="flex gap-1">
             <p className="flex pb-3 pt-3 gap-2">
-              <Image src={Mail} alt="mail" />
+              <Image src={Mail.src} alt="mail" className="w-[20px] h-[20px]"/>
               michelle.rivera@example.com
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function Page2() {
         </div>
         <div className="flex">
           <p className="flex">
-            Follow Us :<Image src={Social} alt="media" />
+            Follow Us :<Image src={Social.src} alt="media"className="w-[30px] h-[30px]" />
           </p>
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function Page2() {
 
       <div className="bg-white flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] h-[90px] text-black">
         <div>
-          <Image src={Logo} alt="" className="" />
+          <Image src={Logo.src} alt="" className="w-10 h-10"  />
         </div>
         <div className="flex gap-4">
           <Link href="/">Home</Link>
@@ -57,7 +57,7 @@ export default function Page2() {
           <h1>Pages</h1>
         </div>
         <div>
-          <Image src={Login} alt="login" />
+          <Image src={Login.src} alt="login" className="w-[30px]"/>
         </div>
       </div>
 
@@ -76,23 +76,23 @@ export default function Page2() {
         </div>
 
         <div className="justify-center items-center font-bold px-[160px]">
-          <Image src={Shopcloths} alt="" className="w-100 h-80" />
+          <Image src={Shopcloths.src} alt="" className="w-100 h-80" />
         </div>
       </div>
       <div className="bg-white px-[350px]">
-        <Image src={Page22} alt="" />
+        <Image src={Page22.src} alt="" className="h-60 w-120" />
       </div>
       <div className="bg-[#FAFAFA] px-[350px]">
-        <Image src={Page23} alt="" className="h-60 w-120" />
+        <Image src={Page23.src} alt="" className="h-60 w-120" />
       </div>
 
       <div>
         <div className="flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] bg-white h-[150px]">
           <div>
-            <Image src={Logo} alt="" className="h-8" />
+            <Image src={Logo.src} alt="" className="h-8 w-8" />
           </div>
           <div>
-            <Image src={Social2} alt="" className="h-8" />
+            <Image src={Social2.src} alt="" className="h-8 w-8" />
           </div>
         </div>
         <hr />

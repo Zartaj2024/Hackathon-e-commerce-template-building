@@ -16,7 +16,7 @@ const Footer = () => {
               <Image src={bandage.src} alt="" className="w-[100px]" />
             </div>
             <div className="flex space-x-4 ">
-              <Image src={Social2.src} alt="social" />
+              <Image src={Social2.src} alt="social" className="w-[30px]" />
             </div>
           </div>
           <div className="mt-10 mb-10 grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pt-10 pb-10   ">

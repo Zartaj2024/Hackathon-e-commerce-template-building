@@ -24,13 +24,13 @@ function Shop() {
         <div className="flex gap-4">
           <div className="flex pt-3 pb-3">
             <div>
-              <Image src={Phone.src} alt="phone" />
+              <Image src={Phone.src} alt="phone" className="w-[20px] h-[20px]" />
             </div>
             <div>(225) 555-0118</div>
           </div>
           <div className="flex gap-1">
             <p className="flex pb-3 pt-3 gap-2">
-              <Image src={Mail.src} alt="mail" />
+              <Image src={Mail.src} alt="mail" className="w-[20px] h-[20px]" />
               michelle.rivera@example.com
             </p>
           </div>
@@ -51,7 +51,7 @@ function Shop() {
 
       <div className="bg-white flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] h-[90px] text-black">
         <div>
-          <Image src={Logo.src} alt="" className="" />
+          <Image src={Logo.src} alt="" className="w-10 h-10" />
         </div>
         <div className="flex gap-4">
           <Link href="/">Home</Link>
@@ -80,7 +80,7 @@ function Shop() {
               <div className="relative mb-4 w-[400px] ">
                 <Image
                   alt="product"
-                  className="w-full object-cover object-center rounded"
+                  className="w-full h-full object-cover object-center rounded"
                   src={P1.src}
                 />
                 <button className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600">
@@ -220,7 +220,7 @@ function Shop() {
             <Image
               src={P1.src} // Replace with your image URL
               alt="Decor Image"
-              className="object-cover"
+              className="object-cover w-full h-full"
             />
           </div>
         </div>
@@ -348,10 +348,10 @@ function Shop() {
 <div>
         <div className="flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] bg-white h-[150px] ">
           <div>
-            <Image src={Logo.src} alt="" className="h-8" />
+            <Image src={Logo.src} alt="" className="h-8 w-8" />
           </div>
           <div>
-            <img src={Social.src} alt="" className="h-8" />
+            <img src={Social.src} alt="" className="h-8 w-8" />
           </div>
         </div>
         <hr />
@@ -503,4 +503,5 @@ function Shop() {
 }
 
 export default Shop;
+
 

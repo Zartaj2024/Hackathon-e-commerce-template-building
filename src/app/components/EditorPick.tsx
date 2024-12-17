@@ -24,7 +24,7 @@ const EditorPick = () => {
           {/* Large Image */}
           <div className="col-span-2 relative">
             <Image
-              src={men}
+              src={men.src}
               alt="Men"
               className="w-full h-full object-cover"
             />
@@ -38,7 +38,7 @@ const EditorPick = () => {
             {/* Women */}
             <div className="relative">
               <Image
-                src={women}
+                src={women.src}
                 alt="Women"
                 className="w-full h-full object-cover"
               />
@@ -49,7 +49,7 @@ const EditorPick = () => {
             {/* Accessories */}
             <div className="relative">
               <Image
-                src={acce}
+                src={acce.src}
                 alt="Accessories"
                 className="w-full h-full object-cover"
               />
@@ -60,7 +60,7 @@ const EditorPick = () => {
             {/* Kids */}
             <div className="relative col-span-2">
               <Image
-                src={kids}
+                src={kids.src}
                 alt="Kids"
                 className="w-full h-full object-cover"
               />

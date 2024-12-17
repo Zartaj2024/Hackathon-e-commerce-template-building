@@ -9,13 +9,13 @@ const Header1 = () => {
       <div className="flex gap-4">
         <div className="flex pt-3 pb-3 gap-2">
           <div>
-            <Image src={phone.src} alt="phone" />
+            <Image src={phone.src} alt="phone" className="w-[20px] h-[20px]" />
           </div>
           <div>(225) 555-0118</div>
         </div>
         <div className="flex gap-1">
           <p className="flex pb-3 pt-3 gap-2">
-            <Image src={mail.src} alt="mail" />
+            <Image src={mail.src} alt="mail" className="w-[20px]" />
             michelle.rivera@example.com
           </p>
         </div>

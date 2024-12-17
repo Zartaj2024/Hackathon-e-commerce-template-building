@@ -27,7 +27,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <Image src={Logo.src} alt="" className="w-full" />
+            <Image src={Logo.src} alt="" className="w-full h-full" />
           </div>
         </div>
       </section>
@@ -48,10 +48,10 @@ export default function About() {
         <div>
           <div className="flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] bg-white h-[150px]">
             <div>
-              <Image src={Bandage.src} alt="" className="h-8" />
+              <Image src={Bandage.src} alt="" className="h-8 w-8" />
             </div>
             <div>
-              <Image src={Social.src} alt="" className="h-8" />
+              <Image src={Social.src} alt="" className="h-8 w-8" />
             </div>
           </div>
           <hr />

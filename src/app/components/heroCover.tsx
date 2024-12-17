@@ -13,7 +13,7 @@ export default function HeroSection() {
             alt="People wrapped in a blanket"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
+            className="rounded-lg w-full h-full"
           />
         )}
         ;
