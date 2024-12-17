@@ -15,6 +15,7 @@ import P6 from "../components/p6.png"
 import P7 from "../components/p7.png"
 import P8 from "../components/p8.png"
 import Page23 from "../components/Page2.4.png";
+import Image from "next/image";
 function Shop() {
   return (
     <div>
@@ -23,13 +24,13 @@ function Shop() {
         <div className="flex gap-4">
           <div className="flex pt-3 pb-3">
             <div>
-              <img src={Phone.src} alt="phone" />
+              <Image src={Phone.src} alt="phone" />
             </div>
             <div>(225) 555-0118</div>
           </div>
           <div className="flex gap-1">
             <p className="flex pb-3 pt-3 gap-2">
-              <img src={Mail.src} alt="mail" />
+              <Image src={Mail.src} alt="mail" />
               michelle.rivera@example.com
             </p>
           </div>
@@ -50,7 +51,7 @@ function Shop() {
 
       <div className="bg-white flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] h-[90px] text-black">
         <div>
-          <img src={Logo.src} alt="" className="" />
+          <Image src={Logo.src} alt="" className="" />
         </div>
         <div className="flex gap-4">
           <Link href="/">Home</Link>
@@ -60,7 +61,7 @@ function Shop() {
           <h1>Pages</h1>
         </div>
         <div>
-          <img src={Login.src} alt="login" />
+          <Image src={Login.src} alt="login" />
         </div>
       </div>
 
@@ -77,7 +78,7 @@ function Shop() {
             {/* Image Section */}
             <div className="lg:w-1/2 w-full flex flex-col items-center">
               <div className="relative mb-4 w-[400px] ">
-                <img
+                <Image
                   alt="product"
                   className="w-full object-cover object-center rounded"
                   src={P1.src}
@@ -91,12 +92,12 @@ function Shop() {
               </div>
               {/* Thumbnail Images */}
               <div className="flex gap-5 mr-[250px]">
-                <img
+                <Image
                   src={P2.src}
                   alt="thumbnail"
                   className="w-16 h-16 object-cover border-2 border-gray-300 hover:border-blue-400"
                 />
-                <img
+                <Image
                   src={P3.src}
                   alt="thumbnail"
                   className="w-16 h-16 object-cover border-2 border-gray-300 hover:border-blue-400"
@@ -216,7 +217,7 @@ function Shop() {
         {/* Left Section */}
         <div className="flex justify-center items-center">
           <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
-            <img
+            <Image
               src={P1.src} // Replace with your image URL
               alt="Decor Image"
               className="object-cover"
@@ -320,7 +321,7 @@ function Shop() {
           >
             <Link href="shop">
               {/* Product Image */}
-         <img src={product.image.src} alt="" className="w-full" />
+         <Image src={product.image.src} alt="" className="w-full" />
               {/* Product Content */}
               <div className="p-4 text-center">
                 <h2 className="text-lg font-semibold text-gray-800">{product.title}</h2>
@@ -342,12 +343,12 @@ function Shop() {
 
 <section>
 <div className="bg-[#FAFAFA] px-[350px]">
-        <img src={Page23.src} alt="" className="h-60 w-90" />
+        <Image src={Page23.src} alt="" className="h-60 w-90" />
       </div>
 <div>
         <div className="flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] bg-white h-[150px] ">
           <div>
-            <img src={Logo.src} alt="" className="h-8" />
+            <Image src={Logo.src} alt="" className="h-8" />
           </div>
           <div>
             <img src={Social.src} alt="" className="h-8" />

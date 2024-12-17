@@ -9,6 +9,7 @@ import T3 from "../components/t3.jpg";
 import Logo from "../components/Page2.4.png";
 import Pic from "../components/page333.png";
 import Bandage from "../components/Bandage.png";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -32,13 +33,13 @@ export default function About() {
 
       <section className="text-gray-600 body-font bg-white">
         <div className="container px-10 py-10 mx-auto justify-center items-center space-x-15 ">
-          <img src={Count.src} alt="" className="w-full" />
+          <Image src={Count.src} alt="" className="w-full" />
         </div>
       </section>
 
       <section>
         <div>
-          <img src={Deskimage.src} alt="" className="w-full" />
+          <Image src={Deskimage.src} alt="" className="w-full" />
         </div>
       </section>
 
@@ -92,7 +93,7 @@ export default function About() {
                 {" "}
                 <div className="h-50 w-full object-cover object-center mb-6">
                   {" "}
-                  <img
+                  <Image
                     className="object-cover object-center w-full h-full "
                     src={T2.src}
                     alt="Team Member 2"
@@ -108,7 +109,7 @@ export default function About() {
                 </h2>{" "}
                 <div className="flex justify-center space-x-4">
                   {" "}
-                  <img src={Social.src} alt="" />
+                  <Image src={Social.src} alt="" />
                 </div>{" "}
               </div>{" "}
             </div>{" "}
@@ -118,7 +119,7 @@ export default function About() {
                 {" "}
                 <div className="h-50 w-full  mb-6">
                   {" "}
-                  <img
+                  <Image
                     className="  w-full h-full"
                     src={T3.src}
                     alt="Team Member 3"
@@ -134,7 +135,7 @@ export default function About() {
                 </h2>{" "}
                 <div className="flex justify-center space-x-4">
                   {" "}
-                  <img src={Social.src} alt="" />
+                  <Image src={Social.src} alt="" />
                 </div>{" "}
               </div>{" "}
             </div>{" "}
@@ -154,7 +155,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <img src={Logo.src} alt="" className="w-full" />
+            <Image src={Logo.src} alt="" className="w-full" />
           </div>
         </div>
       </section>
@@ -167,7 +168,7 @@ export default function About() {
             <button className="bg-transparent border border-white text-white py-2 px-4 rounded hover:bg-white hover:text-blue-500 transition duration-300"> Button </button>
              </div> <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" style={{ height: "600px" }}> 
              
-             <img className="object-cover object-center h-full w-full" alt="hero" src={Pic.src}/> </div> 
+             <Image className="object-cover object-center h-full w-full" alt="hero" src={Pic.src}/> </div> 
       </div>
       </section>
 
@@ -175,10 +176,10 @@ export default function About() {
         <div>
           <div className="flex flex-row justify-between items-center pb-5 pt-5 font-bold px-[150px] bg-white h-[150px]">
             <div>
-              <img src={Bandage.src} alt="" className="h-8" />
+              <Image src={Bandage.src} alt="" className="h-8" />
             </div>
             <div>
-              <img src={Social.src} alt="" className="h-8" />
+              <Image src={Social.src} alt="" className="h-8" />
             </div>
           </div>
           <hr />

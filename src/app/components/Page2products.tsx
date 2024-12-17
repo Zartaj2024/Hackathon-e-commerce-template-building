@@ -113,79 +113,82 @@ export default function Home() {
               <div
                 key={index}
                 className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
-                onClick={() => (product)} >
-               <Link href="shop">
-                {/* Product Image */}
-                <Image
-                  src={product.image}
-                  alt={product.title}
-                  className="w-full h-auto object-cover"
-                />
+                onClick={() => (product)}
+              >
+                <Link href="shop">
+                  {/* Product Image */}
+                  <Image
+                    src={product.image}
+                    alt={product.title}
+                    className="w-full h-auto object-cover"
+                  />
   
-                {/* Product Content */}
-                <div className="p-4 text-center">
-                  <h2 className="text-lg font-semibold text-gray-800">
-                    {product.title}
-                  </h2>
-                  <p className="text-gray-500 text-sm">{product.department}</p>
+                  {/* Product Content */}
+                  <div className="p-4 text-center">
+                    <h2 className="text-lg font-semibold text-gray-800">
+                      {product.title}
+                    </h2>
+                    <p className="text-gray-500 text-sm">{product.department}</p>
   
-                  {/* Price */}
-                  <div className="mt-2">
-                    <span className="line-through text-gray-400 mr-2">
-                      {product.originalPrice}
-                    </span>
-                    <span className="text-green-500 font-bold">
-                      {product.salePrice}
-                    </span>
+                    {/* Price */}
+                    <div className="mt-2">
+                      <span className="line-through text-gray-400 mr-2">
+                        {product.originalPrice}
+                      </span>
+                      <span className="text-green-500 font-bold">
+                        {product.salePrice}
+                      </span>
+                    </div>
+  
+                    {/* Color Dots */}
+                    <div className="flex justify-center space-x-2 mt-3">
+                      <span className="h-4 w-4 bg-blue-500 rounded-full"></span>
+                      <span className="h-4 w-4 bg-green-500 rounded-full"></span>
+                      <span className="h-4 w-4 bg-orange-500 rounded-full"></span>
+                      <span className="h-4 w-4 bg-red-500 rounded-full"></span>
+                    </div>
                   </div>
-  
-                  {/* Color Dots */}
-                  <div className="flex justify-center space-x-2 mt-3">
-                    <span className="h-4 w-4 bg-blue-500 rounded-full"></span>
-                    <span className="h-4 w-4 bg-green-500 rounded-full"></span>
-                    <span className="h-4 w-4 bg-orange-500 rounded-full"></span>
-                    <span className="h-4 w-4 bg-red-500 rounded-full"></span>
-                  </div>
-                </div>
-             </Link> </div>
-           ))}
+                </Link>
+              </div>
+            ))}
           </div>
+
         
         
   
           {/* Pagination */}
           <div className="flex justify-center mt-8 ">
             <nav className="inline-flex items-center px-4 py-4 ">
-              <a
+              <Link
                 href="/"
                 className=" w-[50px] h-[50px] px-3 py-3 bg-gray-200 text-gray-600 rounded-l hover:bg-gray-300"
               >
                 First
-              </a>
-              <a
+              </Link>
+              <Link
                 href="Page2"
                 className=" w-[50px] h-[50px] px-3 py-3 bg-blue-500 text-white hover:bg-blue-600"
               >
                 1
-              </a>
-              <a
+              </Link>
+              <Link
                 href="shop"
                 className=" w-[50px] h-[50px] px-3 py-3 bg-gray-200 text-gray-600 hover:bg-gray-300"
               >
                 2
-              </a>
-              <a
+              </Link>
+              <Link
                 href="About u"
                 className=" w-[50px] h-[50px] px-3 py-3 bg-gray-200 text-gray-600 hover:bg-gray-300"
               >
                 3
-              </a>
-              <a
+              </Link>
+              <Link
                 href=""
                 className=" w-[50px] h-[50px] px-3 py-3 bg-gray-200 text-gray-600 rounded-r hover:bg-gray-300"
               >
                 Next
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

@@ -2,12 +2,13 @@ import React from "react";
 import login from "../components/login.png";
 import bandage from "../components/Bandage.png";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header1 = () => {
   return (
     <div className="flex  w-full h-[105px] bg-white pb-3 pt-3 text-black justify-between items-center p-4">
       <div className="font-bold text-3xl ">
-        <img src={bandage.src} alt="" />{" "}
+        <Image src={bandage.src} alt="" />{" "}
       </div>
       <div className="flex gap-4 font-bold">
       
@@ -21,7 +22,7 @@ const Header1 = () => {
     
       </div>
       <div className="font-bold text-blue-[500] font-Monsterrat">
-        <img src={login.src} alt="login"></img>
+        <Image src={login.src} alt="login"></Image>
       </div>
     </div>
   );

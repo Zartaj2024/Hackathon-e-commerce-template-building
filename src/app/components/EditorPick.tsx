@@ -3,6 +3,7 @@ import acce from "../components/acce.png";
 import men from "../components/men.png";
 import women from "../components/women.png";
 import kids from "../components/kids.png";
+import Image from "next/image";
 
 const EditorPick = () => {
   return (
@@ -22,8 +23,8 @@ const EditorPick = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Large Image */}
           <div className="col-span-2 relative">
-            <img
-              src={men.src}
+            <Image
+              src={men}
               alt="Men"
               className="w-full h-full object-cover"
             />
@@ -36,8 +37,8 @@ const EditorPick = () => {
           <div className="grid grid-cols-2 gap-4">
             {/* Women */}
             <div className="relative">
-              <img
-                src={women.src}
+              <Image
+                src={women}
                 alt="Women"
                 className="w-full h-full object-cover"
               />
@@ -47,8 +48,8 @@ const EditorPick = () => {
             </div>
             {/* Accessories */}
             <div className="relative">
-              <img
-                src={acce.src}
+              <Image
+                src={acce}
                 alt="Accessories"
                 className="w-full h-full object-cover"
               />
@@ -58,8 +59,8 @@ const EditorPick = () => {
             </div>
             {/* Kids */}
             <div className="relative col-span-2">
-              <img
-                src={kids.src}
+              <Image
+                src={kids}
                 alt="Kids"
                 className="w-full h-full object-cover"
               />

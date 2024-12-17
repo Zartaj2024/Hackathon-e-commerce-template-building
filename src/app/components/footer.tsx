@@ -4,6 +4,7 @@ import React from "react";
 import Social2 from "../components/social2.png";
 import bandage from "../components/Bandage.png";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -12,10 +13,10 @@ const Footer = () => {
         <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8 m-40px p-40px ">
           <div className=" flex justify-between mr-[-200px] items-center bg-[#FAFAFA] p-7 w-full h-[120px] space-between  ">
             <div>
-              <img src={bandage.src} alt="" className="w-[100px]" />
+              <Image src={bandage.src} alt="" className="w-[100px]" />
             </div>
             <div className="flex space-x-4 ">
-              <img src={Social2.src} alt="social" />
+              <Image src={Social2.src} alt="social" />
             </div>
           </div>
           <div className="mt-10 mb-10 grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pt-10 pb-10   ">
@@ -160,3 +161,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

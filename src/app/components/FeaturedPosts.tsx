@@ -1,10 +1,14 @@
 // components/FeaturedPosts.js
-import React from "react";
+
+    import React from "react";
 import car from "../components/car.png";
 import road from "../components/road.png";
 import umbrella from "../components/umbrella.png";
 import icon1 from "../components/icon1.png";
 import icon2 from "../components/icon2.png";
+import Image from "next/image";
+import Link from "next/link";
+
 const FeaturedPosts = () => {
   return (
     <div className="bg-white py-12">
@@ -29,9 +33,8 @@ const FeaturedPosts = () => {
                 NEW
               </div>
               <div>
-                {" "}
                 {road && (
-                  <img
+                  <Image
                     className="h-48 w-full object-cover"
                     src={road.src}
                     alt="Colorful houses"
@@ -41,9 +44,7 @@ const FeaturedPosts = () => {
               <div className="mt-4 space-y-8 py-4 px-4">
                 <div className="flex items-center text-sm text-gray-500 gap-4">
                   <span className="text-blue-500">Google</span>
-
                   <span>Trending</span>
-
                   <span>New</span>
                 </div>
                 <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">
@@ -55,20 +56,20 @@ const FeaturedPosts = () => {
                 </p>
                 <div className="mt-2 flex items-center text-sm text-gray-500 gap-[140px] ">
                   <div className="flex">
-                  <img src={icon1.src} alt="" className="w-4 h-4 gap-1" /> <span>22 April 2021</span>
+                    <Image src={icon1.src} alt="" className="w-4 h-4 gap-1" /> <span>22 April 2021</span>
                   </div>
                   <div className="flex gap-1">
-                  <img src={icon2.src} alt="" className="w-4 h-4 " />
-                  <span>10 comments</span>
+                    <Image src={icon2.src} alt="" className="w-4 h-4 " />
+                    <span>10 comments</span>
                   </div>
                 </div>
                 <div>
-                <a
-                  href="#"
-                  className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
-                >
-                  Learn More
-                </a>
+                  <Link
+                    href="#"
+                    className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,7 +79,7 @@ const FeaturedPosts = () => {
                 NEW
               </div>
               <div>
-                <img
+                <Image
                   className="h-48 w-full object-cover"
                   src={car.src}
                   alt="Pink car"
@@ -87,9 +88,7 @@ const FeaturedPosts = () => {
               <div className="mt-4 space-y-8 py-4 px-4">
                 <div className="flex items-center text-sm text-gray-500 gap-4">
                   <span className="text-blue-500">Google</span>
-
                   <span>Trending</span>
-
                   <span>New</span>
                 </div>
                 <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">
@@ -101,30 +100,29 @@ const FeaturedPosts = () => {
                 </p>
                 <div className="mt-2 flex gap-[140px] items-center text-sm text-gray-500 ">
                   <div className="flex gap-1">
-                  <img src={icon1.src} alt="" className="w-4 h-4"/> <span>22 April 2021</span>
+                    <Image src={icon1.src} alt="" className="w-4 h-4"/> <span>22 April 2021</span>
                   </div>
                   <div className="flex">
-                  <img src={icon2.src} alt="" /> <span>10 comments</span>
+                    <Image src={icon2.src} alt="" className="w-4 h-4" /> <span>10 comments</span>
                   </div>
                 </div>
                 <div>
-                <a
-                  href="#"
-                  className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
-                >
-                  Learn More
-                </a>
+                  <Link
+                    href="#"
+                    className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </div>
             {/* Post 3 */}
-            <div className="relative   border-gray-200 rounded-lg shadow ">
+            <div className="relative border-gray-200 rounded-lg shadow ">
               <div className="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 text-xs font-bold">
                 NEW
               </div>
               <div>
-                {" "}
-                <img
+                <Image
                   className="h-48 w-full object-cover"
                   src={umbrella.src}
                   alt="Colorful umbrellas"
@@ -133,9 +131,7 @@ const FeaturedPosts = () => {
               <div className="mt-4 space-y-8 py-4 px-4">
                 <div className="flex items-center text-sm text-gray-500 gap-4">
                   <span className="text-blue-500">Google</span>
-
                   <span>Trending</span>
-
                   <span>New</span>
                 </div>
                 <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">
@@ -145,28 +141,22 @@ const FeaturedPosts = () => {
                   We focus on ergonomics and meeting you where you work. It's
                   only a keystroke away.
                 </p>
-                <div className="mt-2 flex  gap-[140px]  items-center text-sm text-gray-500   ">
-                 <div className="flex gap-1">
-                   
-                  <img src={icon1.src} alt="" className="w-4 h-4"/>   22 April 2021
-               </div>
-               <div className="flex">
-
-                  
-                    
-                  <img src={icon2.src} alt="w-4-h-4" />  10 comments
-                </div>
+                <div className="mt-2 flex gap-[140px] items-center text-sm text-gray-500">
+                  <div className="flex gap-1">
+                    <Image src={icon1.src} alt="" className="w-4 h-4"/> <span>22 April 2021</span>
+                  </div>
+                  <div className="flex">
+                    <Image src={icon2.src} alt="" className="w-4 h-4" /> <span>10 comments</span>
+                  </div>
                 </div>
                 <div>
-                <a
-                  href="#"
-                  className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
-                >
-
-               
-                  Learn More
-                </a>
-                 </div>
+                  <Link
+                    href="#"
+                    className="mt-2 text-indigo-600 hover:text-indigo-900 text-sm font-medium"
+                  >
+                    Learn More
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -177,3 +167,4 @@ const FeaturedPosts = () => {
 };
 
 export default FeaturedPosts;
+
